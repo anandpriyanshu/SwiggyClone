@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Bricolage+Grotesque:opsz@12..96&family=Josefin+Sans&family=Lexend&family=Montserrat:wght@400;500;600&family=Open+Sans:wght@300&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono&family=Roboto:wght@100;300;400&family=Russo+One&family=Yantramanav&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Bricolage+Grotesque:opsz@12..96&family=Fjalla+One&family=Josefin+Sans&family=Lexend&family=Montserrat:wght@400;500;600&family=Open+Sans:wght@300&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono&family=Roboto:wght@100;300;400&family=Russo+One&family=Yantramanav&family=Young+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.header-container {
+}
+.header-container .navbar nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-container .navbar nav .logo img {
+  width: 90px;
+}
+
+.header-container .navbar nav .nav-content a {
+  padding: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.header-container .navbar nav .nav-content a:hover {
+  color: #e99b0b;
+}
+
+.main-container {
+  background-color: #ffffff;
+}
+
+.main-container .main-content {
+  /* background-color: red; */
+  width: 80%;
+  margin: 0px auto;
+  padding: 20px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.main-container .main-content h2 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.main-container .main-content .offers {
+  overflow: scroll;
+  display: flex;
+  column-gap: 18px;
+  padding: 13px;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.offers::-webkit-scrollbar {
+  display: none;
+}
+
+.main-container .main-content .offers img {
+  width: 430px;
+}
+
+.main-container .main-content .offers img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.main-container .main-content #mind img {
+  width: 144px;
+}
+
+.main-container .main-content #mind {
+  border-bottom: 3px solid #f0f0f5;
+}
+.main-container .buttons {
+  /* padding-top: 20px; */
+}
+
+.main-container .buttons button {
+  font-size: 14px;
+  font-weight: 200;
+  padding: 10px;
+  border-radius: 20px;
+  background: transparent;
+  border: 1px solid rgb(202, 199, 199);
+}
+
+.main-container .foods {
+  column-gap: 32px;
+  display: flex;
+}
+
+.main-container #last {
+  border-bottom: 3px solid #f0f0f5;
+}
+
+.main-container .foods .food1 img {
+  background-image: linear-gradient(white, black);
+  background-position: center;
+  background-size: cover;
+  width: 275px;
+  height: 180px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.main-container .foods .food1 .free img {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  transform: translate(-10px, -160px);
+}
+
+.main-container .foods .food1:hover {
+  opacity: 0.7;
+}
+
+.main-container .foods .food1 h4 {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  padding-left: 5px;
+  font-family: "Fjalla One", sans-serif;
+  transform: translate(0px, -35px);
+  word-spacing: 5px;
+}
+
+.main-container .foods .food1 h5 {
+  font-size: 18px;
+}
+.main-container .foods .food1 h5 i {
+  font-size: 16px;
+}
+
+.main-container .foods .food1,
+h4,
+h3,
+h5,
+p {
+  transform: translate(0px, -25px);
+}
+
+.place .button-cities {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.place .button-cities input {
+  font-size: 16px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  /* margin: 0px 18px; */
+  border: none;
+  text-align: center;
+}
+
+.place .last-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.place .last-button input {
+  padding: 15px 180px;
+  border: none;
+  border-radius: 8px;
+}
+
+.google img {
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 370px;
+  background-color: black;
+  color: white;
+  line-height: 30px;
+}
+
+.item h2 img {
+  padding-right: 10px;
+  width: 26px;
+  height: 35px;
+}
+.item h2 {
+  display: flex;
+}
+
+.item .item1 p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.item #first {
+  padding-bottom: 200px;
+}
+
+.item1 ul li {
+  color: gray;
+  font-size: 15px;
+  list-style: none;
+}
